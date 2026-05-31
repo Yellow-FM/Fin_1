@@ -10,7 +10,7 @@ from datetime import date, timedelta
 st.set_page_config(page_title="Просмотр данных", layout="wide")
 st.title("📊 Интерактивный анализ метеорологических данных")
 
-DB_PATH = "weather.db"
+DB_PATH = "data/weather.db"
 
 @st.cache_data
 def load_data():
